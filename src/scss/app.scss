@@ -160,6 +160,8 @@ body {
     @media (max-width: 768px) {
       flex-direction: column;
       position: relative;
+      align-items: center;
+      text-align: center;
     }
 
     &-img {
@@ -277,7 +279,7 @@ body {
       @media (max-width: 768px) {
         order: 3;
         align-items: flex-start;
-        justify-content: flex-start;
+        justify-content: center;
         margin: 10px 0;
         width: auto;
 
@@ -340,6 +342,7 @@ body {
     &-details {
       display: flex;
       justify-content: space-between;
+      flex-direction: column;
 
       span {
         font-size: 22px;
